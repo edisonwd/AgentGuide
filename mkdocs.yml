@@ -1,0 +1,145 @@
+site_name: AgentGuide
+site_description: AI Agent 开发 × 面试求职 = 一站式解决方案
+site_url: https://adongwanai.github.io/AgentGuide/
+repo_url: https://github.com/adongwanai/AgentGuide
+repo_name: adongwanai/AgentGuide
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+nav:
+  - 首页: index.md
+  - 快速开始:
+    - 概览: 00-getting-started/README.md
+    - Agent 学习地图: 00-getting-started/01-agent-map.md
+    - 前 7 天学习计划: 00-getting-started/02-first-7-days.md
+    - 高质量资源筛选清单: 00-getting-started/03-resource-quality-checklist.md
+    - 仓库补洞地图: 00-getting-started/04-repo-gap-map.md
+  - 理论基础:
+    - 什么是 AI Agent: 01-theory/01-what-is-agent.md
+    - Agent 技术演进史: 01-theory/02-agent-history.md
+    - Transformer 架构详解: 01-theory/03-transformer.md
+    - ReAct 框架: 01-theory/04-react-framework.md
+    - Chain-of-Thought 与规划: 01-theory/05-cot-and-planning.md
+    - AgentBench 详解: 01-theory/08-agent-bench.md
+    - 评估指标体系: 01-theory/09-evaluation-metrics.md
+    - DeepSeek 系列: 01-theory/10-deepseek-series.md
+    - LLaMA 系列: 01-theory/11-llama-series.md
+    - Qwen 系列: 01-theory/12-qwen-series.md
+  - 技术栈:
+    - 概览: 02-tech-stack/README.md
+    - LangChain 指南: 02-tech-stack/04-langchain-guide.md
+    - 多 Agent 框架: 02-tech-stack/06-multi-agent-frameworks.md
+    - AgentScope: 02-tech-stack/07-agentscope.md
+    - 向量数据库基础: 02-tech-stack/08-vector-db-basics.md
+    - 上下文工程实践: 02-tech-stack/11-context-engineering-practices.md
+    - Factor Agent 架构: 02-tech-stack/12-factor-agent-architecture.md
+    - 上下文工程资源: 02-tech-stack/13-context-engineering-resources.md
+    - 上下文工程概述: 02-tech-stack/14-context-engineering.md
+    - MCP 协议: 02-tech-stack/14-mcp-protocol.md
+    - Agent 记忆: 02-tech-stack/15-agent-memory.md
+    - SFT 微调: 02-tech-stack/16-sft-finetuning.md
+    - Claude Code 最佳实践: 02-tech-stack/17-claude-code-best-practices.md
+    - 上下文工程指南: 02-tech-stack/18-context-engineering-guide.md
+    - 上下文工程教程大纲: 02-tech-stack/19-context-engineering-tutorial-outline.md
+    - RAG 完整流水线: 02-tech-stack/20-rag-full-pipeline.md
+    - Agent 强化学习: 02-tech-stack/21-agent-reinforcement-learning.md
+    - 构建 Agent 框架: 02-tech-stack/22-build-your-agent-framework.md
+    - Parlant 合规深度: 02-tech-stack/22-parlant-agent-compliance-deep-dive.md
+    - 经验教训: 02-tech-stack/23-lessons-learned.md
+    - Agent 沙箱指南: 02-tech-stack/24-agent-sandbox-guide.md
+    - 后训练完整指南: 02-tech-stack/25-post-training-complete-guide.md
+    - Agent 评估 Harness 指南: 02-tech-stack/26-agent-evaluation-harness-guide.md
+    - Agent Harness 工程: 02-tech-stack/27-agent-harness-engineering.md
+    - Agent 评估完整指南: 02-tech-stack/agent-evaluation-complete-guide.md
+  - 实战项目:
+    - 高可用 RAG: 03-practice/02-high-availability-rag.md
+    - Agent 安全: 03-practice/03-agent-security.md
+    - 毕业项目: 03-practice/04-graduation-project.md
+    - 落地 Agent 项目: 03-practice/05-ship-agent-project.md
+  - 面试求职:
+    - 理论题: 04-interview/01-theory-questions.md
+    - RAG 题: 04-interview/02-rag-questions.md
+    - Agent 题: 04-interview/03-agent-questions.md
+    - 编程题: 04-interview/04-coding-questions.md
+    - 算法专项: 04-interview/05-algorithm-specialized.md
+    - 开发专项: 04-interview/06-development-specialized.md
+    - 转行指南: 04-interview/07-career-transition.md
+    - 求职指南: 04-interview/08-job-hunting-guide.md
+    - 薪资谈判: 04-interview/09-salary-negotiation.md
+    - HR 面试: 04-interview/10-hr-interview.md
+    - 心态建设: 04-interview/11-mindset.md
+    - 公司面试案例: 04-interview/12-company-interview-cases.md
+    - 简历指南: 04-interview/12-resume-guide.md
+    - 模型评估: 04-interview/13-model-evaluation.md
+    - 故事讲述: 04-interview/13-storytelling.md
+    - LLM 未来趋势: 04-interview/14-llm-future-trends.md
+    - 开放讨论: 04-interview/15-open-discussion.md
+    - LLM 基础: 04-interview/16-llm-fundamentals.md
+    - 编程练习: 04-interview/17-coding-exercises.md
+    - 面试备战手册:
+      - 概览: 04-interview/18-agent-interview-playbooks/README.md
+      - Agent 评估手册: 04-interview/18-agent-interview-playbooks/agent-evaluation-playbook.md
+      - Agent Harness 手册: 04-interview/18-agent-interview-playbooks/agent-harness-playbook.md
+      - Agent 记忆手册: 04-interview/18-agent-interview-playbooks/agent-memory-playbook.md
+      - 程序性记忆手册: 04-interview/18-agent-interview-playbooks/agent-skills-procedural-memory-playbook.md
+      - Agentic RAG 手册: 04-interview/18-agent-interview-playbooks/agentic-rag-deep-research-playbook.md
+      - Claude Code 手册: 04-interview/18-agent-interview-playbooks/claude-code-source-playbook.md
+      - 数据合成手册: 04-interview/18-agent-interview-playbooks/data-synthesis-playbook.md
+      - Hermes 自进化手册: 04-interview/18-agent-interview-playbooks/hermes-self-evolution-playbook.md
+      - OpenClaw 手册: 04-interview/18-agent-interview-playbooks/openclaw-source-playbook.md
+      - STAR 故事手册: 04-interview/18-agent-interview-playbooks/star-storytelling-playbook.md
+  - 学习路线:
+    - 算法岗路线图: 05-roadmaps/learning-roadmap-algorithm.md
+    - 开发岗路线图: 05-roadmaps/learning-roadmap-development.md
+    - 2026 求职路线图: 05-roadmaps/agent-job-ready-roadmap-2026.md
+    - 开源学习路线: "05-roadmaps/AgentGuide开源学习路线（简易版本）.md"
+  - 归档:
+    - 归档内容: archive/2.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/adongwanai/AgentGuide
