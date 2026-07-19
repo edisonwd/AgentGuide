@@ -1,8 +1,8 @@
 site_name: AgentGuide
 site_description: AI Agent 开发 × 面试求职 = 一站式解决方案
-site_url: https://adongwanai.github.io/AgentGuide/
-repo_url: https://github.com/adongwanai/AgentGuide
-repo_name: adongwanai/AgentGuide
+site_url: https://edisonwd.github.io/AgentGuide/
+repo_url: https://github.com/edisonwd/AgentGuide
+repo_name: edisonwd/AgentGuide
 
 theme:
   name: material
@@ -142,4 +142,4 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/adongwanai/AgentGuide
+      link: https://github.com/edisonwd/AgentGuide

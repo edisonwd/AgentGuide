@@ -8,10 +8,10 @@
     
 <br/>
     
-<a href="https://github.com/adongwanai/AgentGuide">
+<a href="https://github.com/edisonwd/AgentGuide">
         <img src="https://img.shields.io/github/stars/adongwanai/AgentGuide.svg?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars">
     </a>
-    <a href="https://github.com/adongwanai/AgentGuide/network/members">
+    <a href="https://github.com/edisonwd/AgentGuide/network/members">
         <img src="https://img.shields.io/badge/Forks-527-orange.svg?style=for-the-badge&logo=github" alt="GitHub forks">
     </a>
     
@@ -53,9 +53,9 @@
 - [🎯 面试题库](#-第六步面试准备与-offer-冲刺) - 1000+题、系统设计、编程题
 
 **🛠️ 快速导航**：
-- [🚀 10分钟快速开始](#-快速开始) | [💬 加入学习社群](#-联系作者--加入社群) | [❓ 常见问题](https://github.com/adongwanai/AgentGuide/blob/main/FAQ.md)
+- [🚀 10分钟快速开始](#-快速开始) | [💬 加入学习社群](#-联系作者--加入社群) | [❓ 常见问题](https://github.com/edisonwd/AgentGuide/blob/main/FAQ.md)
 - [🧭 新手快速开始](00-getting-started/README.md) | [🧭 2026 Agent 求职路线](05-roadmaps/agent-job-ready-roadmap-2026.md) | [🛠️ Agent 项目落地方法](03-practice/05-ship-agent-project.md) | [🧩 Agent Harness Engineering](02-tech-stack/27-agent-harness-engineering.md)
-- [📄 Paper Agent](https://github.com/adongwanai/AgentGuide/tree/main/projects/01-paper-agent/README.md) | [🧳 Travel Agent](https://github.com/adongwanai/AgentGuide/tree/main/projects/02-travel-agent/README.md) | [🌐 Web Agent](https://github.com/adongwanai/AgentGuide/tree/main/projects/03-web-agent/README.md) | [🖼️ Multimodal RAG](https://github.com/adongwanai/AgentGuide/tree/main/resources/multimodal/README.md)
+- [📄 Paper Agent](https://github.com/edisonwd/AgentGuide/tree/main/projects/01-paper-agent/README.md) | [🧳 Travel Agent](https://github.com/edisonwd/AgentGuide/tree/main/projects/02-travel-agent/README.md) | [🌐 Web Agent](https://github.com/edisonwd/AgentGuide/tree/main/projects/03-web-agent/README.md) | [🖼️ Multimodal RAG](https://github.com/edisonwd/AgentGuide/tree/main/resources/multimodal/README.md)
 
 ---
 
@@ -1530,9 +1530,9 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
 **项目核心**：整理分享一些优质的 Agent 实战开源项目、Workflow 项目与 Agent 项目集合
 
 **包含内容**：
-- [优质 Agent 实战开源项目](https://github.com/adongwanai/AgentGuide/tree/main/projects/04-end-to-end-projects/README.md)
-- [优质 Workflow 项目](https://github.com/adongwanai/AgentGuide/tree/main/projects/05-agent-workflows/README.md)
-- [优质 Agent 项目集合](https://github.com/adongwanai/AgentGuide/tree/main/projects/06-project-collections/README.md)
+- [优质 Agent 实战开源项目](https://github.com/edisonwd/AgentGuide/tree/main/projects/04-end-to-end-projects/README.md)
+- [优质 Workflow 项目](https://github.com/edisonwd/AgentGuide/tree/main/projects/05-agent-workflows/README.md)
+- [优质 Agent 项目集合](https://github.com/edisonwd/AgentGuide/tree/main/projects/06-project-collections/README.md)
 
 </details>
 
@@ -1909,26 +1909,26 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
 > **📌 只推荐面试会考、项目会用的核心资源！**
 
 **🤖 Agent 方向**：
-- [x] [Agent 资源总览 📂](https://github.com/adongwanai/AgentGuide/tree/main/resources/agent/) - Agent 所有资源导航
-  - [Agent 框架对比](https://github.com/adongwanai/AgentGuide/tree/main/resources/agent/frameworks.md) - 5个核心框架
-  - [Memory 模块](https://github.com/adongwanai/AgentGuide/tree/main/resources/agent/memory.md) - 4个记忆系统
-  - [Tool Use](https://github.com/adongwanai/AgentGuide/tree/main/resources/tools.md) - 工具调用
-  - [GUI Agent](https://github.com/adongwanai/AgentGuide/tree/main/resources/agent/gui-agent.md) - 界面操作
-  - [核心论文](https://github.com/adongwanai/AgentGuide/tree/main/resources/agent/papers/README.md) - 必读论文
+- [x] [Agent 资源总览 📂](https://github.com/edisonwd/AgentGuide/tree/main/resources/agent/) - Agent 所有资源导航
+  - [Agent 框架对比](https://github.com/edisonwd/AgentGuide/tree/main/resources/agent/frameworks.md) - 5个核心框架
+  - [Memory 模块](https://github.com/edisonwd/AgentGuide/tree/main/resources/agent/memory.md) - 4个记忆系统
+  - [Tool Use](https://github.com/edisonwd/AgentGuide/tree/main/resources/tools.md) - 工具调用
+  - [GUI Agent](https://github.com/edisonwd/AgentGuide/tree/main/resources/agent/gui-agent.md) - 界面操作
+  - [核心论文](https://github.com/edisonwd/AgentGuide/tree/main/resources/agent/papers/README.md) - 必读论文
 
 **📊 RAG 方向**：
-- [x] [RAG 资源总览 📂](https://github.com/adongwanai/AgentGuide/tree/main/resources/rag/) - RAG 所有资源导航
-  - [向量数据库](https://github.com/adongwanai/AgentGuide/tree/main/resources/rag/vector-db.md) - 5个核心向量库
-  - [文档解析](https://github.com/adongwanai/AgentGuide/tree/main/resources/rag/document-parsing.md) - 5个解析工具
-  - [完整项目汇总](https://github.com/adongwanai/AgentGuide/tree/main/resources/rag/projects.md) - 150+个RAG开源项目 🆕
-  - [Embedding 模型](https://github.com/adongwanai/AgentGuide/tree/main/resources/rag/embedding.md) - Embedding选型
-  - [Reranker](https://github.com/adongwanai/AgentGuide/tree/main/resources/rag/reranker.md) - 重排序
-  - [高级RAG](https://github.com/adongwanai/AgentGuide/tree/main/resources/rag/advanced.md) - GraphRAG、HyDE
-  - [核心论文](https://github.com/adongwanai/AgentGuide/tree/main/resources/rag/papers/README.md) - 必读论文
+- [x] [RAG 资源总览 📂](https://github.com/edisonwd/AgentGuide/tree/main/resources/rag/) - RAG 所有资源导航
+  - [向量数据库](https://github.com/edisonwd/AgentGuide/tree/main/resources/rag/vector-db.md) - 5个核心向量库
+  - [文档解析](https://github.com/edisonwd/AgentGuide/tree/main/resources/rag/document-parsing.md) - 5个解析工具
+  - [完整项目汇总](https://github.com/edisonwd/AgentGuide/tree/main/resources/rag/projects.md) - 150+个RAG开源项目 🆕
+  - [Embedding 模型](https://github.com/edisonwd/AgentGuide/tree/main/resources/rag/embedding.md) - Embedding选型
+  - [Reranker](https://github.com/edisonwd/AgentGuide/tree/main/resources/rag/reranker.md) - 重排序
+  - [高级RAG](https://github.com/edisonwd/AgentGuide/tree/main/resources/rag/advanced.md) - GraphRAG、HyDE
+  - [核心论文](https://github.com/edisonwd/AgentGuide/tree/main/resources/rag/papers/README.md) - 必读论文
 
 **🛠️ 通用工具**：
-- [x] [开发者工具箱](https://github.com/adongwanai/AgentGuide/tree/main/resources/tools.md) - Cursor、元宝、Excalidraw
-- [x] [开发框架总览](https://github.com/adongwanai/AgentGuide/tree/main/resources/frameworks.md) - 快速框架对比
+- [x] [开发者工具箱](https://github.com/edisonwd/AgentGuide/tree/main/resources/tools.md) - Cursor、元宝、Excalidraw
+- [x] [开发框架总览](https://github.com/edisonwd/AgentGuide/tree/main/resources/frameworks.md) - 快速框架对比
 
 **🎨 推荐可视化学习资源**：
 - 📊 **[100+ LLM/RL 算法原理图](https://github.com/changyeyu/LLM-RL-Visualized)** - 《大模型算法：强化学习、微调与对齐》作者巨献
@@ -1957,7 +1957,7 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
 阅读：docs/02-tech-stack/04-langchain-guide.md
 
 # 第四步：跑通第一个 Agent
-git clone https://github.com/adongwanai/AgentGuide.git
+git clone https://github.com/edisonwd/AgentGuide.git
 cd AgentGuide/examples
 python quickstart_agent.py
 ```
@@ -1975,7 +1975,7 @@ python quickstart_agent.py
 阅读：docs/02-tech-stack/08-vector-db-basics.md
 
 # 第四步：搭建第一个 RAG Agent
-git clone https://github.com/adongwanai/AgentGuide.git
+git clone https://github.com/edisonwd/AgentGuide.git
 cd AgentGuide/examples
 python quickstart_rag_agent.py
 ```
@@ -2001,7 +2001,7 @@ python quickstart_rag_agent.py
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 提交 Pull Request
 
-详细贡献指南请参考：[CONTRIBUTING.md](https://github.com/adongwanai/AgentGuide/blob/main/CONTRIBUTING.md)
+详细贡献指南请参考：[CONTRIBUTING.md](https://github.com/edisonwd/AgentGuide/blob/main/CONTRIBUTING.md)
 
 ---
 
@@ -2058,7 +2058,7 @@ python quickstart_rag_agent.py
 
 **如何加入？**
 
-1. **方式一**：Star 本项目后，在 [Issues](https://github.com/adongwanai/AgentGuide/issues) 中评论"申请加群"
+1. **方式一**：Star 本项目后，在 [Issues](https://github.com/edisonwd/AgentGuide/issues) 中评论"申请加群"
 2. **方式二**：关注公众号「阿东玩AI」，回复「AgentGuide」获取入群二维码
 3. **方式三**：[小红书@阿东玩AI](https://www.xiaohongshu.com/user/profile/5f310fd50000000001009df5)，私信"加群"
 
@@ -2082,9 +2082,9 @@ python quickstart_rag_agent.py
 ## 📝 更多文档
 
 ### 📚 项目文档
-- ❓ [常见问题 (FAQ)](https://github.com/adongwanai/AgentGuide/blob/main/FAQ.md) - 14个常见问题解答
+- ❓ [常见问题 (FAQ)](https://github.com/edisonwd/AgentGuide/blob/main/FAQ.md) - 14个常见问题解答
 - 📊 [项目总结 (PROJECT_SUMMARY)](./PROJECT_SUMMARY.md) - 项目定位与核心优势
-- 🤝 [贡献指南 (CONTRIBUTING)](https://github.com/adongwanai/AgentGuide/blob/main/CONTRIBUTING.md) - 如何参与贡献
+- 🤝 [贡献指南 (CONTRIBUTING)](https://github.com/edisonwd/AgentGuide/blob/main/CONTRIBUTING.md) - 如何参与贡献
 
 ### 🗺️ 学习路线
 - 🧭 [2026 Agent 求职通关路线](05-roadmaps/agent-job-ready-roadmap-2026.md) - Agent Loop、Harness、Skills、Eval、项目产出的可执行路线 ⭐ 新增
@@ -2097,10 +2097,10 @@ python quickstart_rag_agent.py
 - 🧩 [Agent Harness Engineering](02-tech-stack/27-agent-harness-engineering.md) - Agent Harness 七层模型与可靠性六件套
 
 ### 📂 资源导航
-- 🤖 [Agent 资源总览](https://github.com/adongwanai/AgentGuide/tree/main/resources/agent/) - Agent 所有资源
-- 📊 [RAG 资源总览](https://github.com/adongwanai/AgentGuide/tree/main/resources/rag/) - RAG 所有资源
-- 🛠️ [开发工具箱](https://github.com/adongwanai/AgentGuide/tree/main/resources/tools.md) - 效率工具推荐
-- 📚 [精选学习资源](https://github.com/adongwanai/AgentGuide/tree/main/resources/learning-resources.md) - 课程、教程、书籍汇总
+- 🤖 [Agent 资源总览](https://github.com/edisonwd/AgentGuide/tree/main/resources/agent/) - Agent 所有资源
+- 📊 [RAG 资源总览](https://github.com/edisonwd/AgentGuide/tree/main/resources/rag/) - RAG 所有资源
+- 🛠️ [开发工具箱](https://github.com/edisonwd/AgentGuide/tree/main/resources/tools.md) - 效率工具推荐
+- 📚 [精选学习资源](https://github.com/edisonwd/AgentGuide/tree/main/resources/learning-resources.md) - 课程、教程、书籍汇总
 
 ---
 
